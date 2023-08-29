@@ -1,8 +1,8 @@
 # Hotel Reservation System
 
-*The tech-stack used here is HTML, CSS, JS, PHP, and MYSQL for database
-*A hotel reservation system where a customer can search for the hotel, see details, suggestions, discouts, then book the relavant hotel.
-*After booking he will be able to get a receipt for the bookings and get details of current bookings
+The tech-stack used here is HTML, CSS, JS, PHP, and MYSQL for database
+A hotel reservation system where a customer can search for the hotel, see details, suggestions, discouts, then book the relavant hotel.
+After booking he will be able to get a receipt for the bookings and get details of current bookings
 
 ## Screenshots
 
@@ -23,7 +23,7 @@
 1. Home page for customer_ui is -->loggedout-->index.html
 2. Home page for officer_ui is -->index.html
 3. change the database credentials before use
-4. You have to create the databse tables as below.
+4. Have to create the relevat Tables with exact names in your Database For the proper functioning
 
 ## Usage
 
