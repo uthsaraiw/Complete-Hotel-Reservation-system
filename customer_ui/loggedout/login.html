@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Reservation</title>
+    <script src="https://kit.fontawesome.com/4a07888b37.js" crossorigin="anonymous"></script>
+	  <link rel="stylesheet" href="http://localhost/co226/project/customer_ui/css/framework.css">	
+    <link rel="stylesheet" href="http://localhost/co226/project/customer_ui/css/login.css">	
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <p>Home</p>
+          </a>
+          <a href="login.html">
+            <p>My Bookings</p>
+          </a>
+          <a href="help.html">
+            <p>Help</p>
+          </a>
+          <a href="about.html">
+            <p>About</p>
+          </a>
+    </nav>
+
+    <div class="body">
+      <div class="form">
+        <!--login form-->
+        <form action="http://localhost/co226/project/customer_ui/loggedout/login.php"  method="post" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>LOGIN</h1>
+              <p>Please fill in this form to login to the account.</p>
+              <hr>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+          
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+              
+              <div class="clearfix">
+                <button type="button" class="cancelbtn" onclick="navigateToAnotherPage()">Signup</button>
+                <button type="submit" class="signupbtn">Log In</button>
+
+                <script>
+                    function navigateToAnotherPage() {
+                        window.location.href = "signup.html";
+                    }
+                </script>
+              </div>
+            </div>
+          </form>
+          <!--end of login-->
+
+        </div>
+      
+    </div>
+	
+ </body>								
+</html>

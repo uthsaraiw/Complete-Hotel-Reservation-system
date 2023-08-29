@@ -1,0 +1,174 @@
+#myInput {
+    background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 95%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 2% 12px 3%; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+  }
+  
+  #myTable {
+    border-collapse: collapse; /* Collapse borders */
+    width: 100%; /* Full-width */
+    border: 1px solid #ddd; /* Add a grey border */
+    font-size: 18px; /* Increase font-size */
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; /* Left-align text */
+    padding: 12px; /* Add padding */
+  }
+  
+  #myTable tr {
+    /* Add a bottom border to all table rows */
+    border-bottom: 1px solid #ddd;
+    
+  }
+
+  #myTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #myTable tr:hover {
+    /* Add a grey background color to the table header and on hover */
+    background-color: #f2f2f2;
+  }
+
+  .free-room {
+    width: 80%;
+    margin: 50px 10% 0 10%;
+  }
+
+  .free-room-table {
+    height: 350px;
+    overflow: auto;
+  }
+
+  .free-room-main {
+    width: 80%;
+    margin: 50px 10% 0 10%;
+  }
+
+
+  .free-room-main p {
+    width: 80%;
+    float: left;
+  }
+
+  .notification {
+    background-color: #090f71;
+    color: white;
+    text-decoration: none;
+    padding: 15px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification:hover {
+    background: rgb(161, 2, 2);
+  }
+  
+  .notification .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+  }
+
+  .summary {
+    border: 1px solid #ddd;
+    width: 80%;
+    text-align: center;
+    height: 230px;
+    margin: 50px 10% 0 10%;
+    background-color: #090e7128;
+  }
+  
+  
+   {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 80px;
+  right: 220px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: green;
+  
+  
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+} 
+
+#detailButton{
+	color: white;
+	text-decoration:none;
+	background-color: #090f71;
+	padding:10px;
+}
+#detailButton:hover{
+	background: rgb(161,2,2);
+}

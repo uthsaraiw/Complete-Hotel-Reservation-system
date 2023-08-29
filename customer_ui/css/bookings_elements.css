@@ -1,0 +1,47 @@
+.main-card {
+    margin: 10px;
+}
+
+.sub-card {
+    width: 1026px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px 200px 0 220px;
+    border: 1px solid rgba(53, 53, 53, 0.278);
+}
+
+.body h1 {
+    margin: 100px 250px 50px 250px;
+}
+
+.sub-card img {
+    float: left;
+    height: 160px;
+    width: 160px;
+    margin: 20px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.sub-card-theory {
+    float: left;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.sub-card .button {
+    width: 150px;
+    float: right;
+    background-color: rgb(16, 95, 205);
+    color: white;
+    text-align: center;
+    margin-right: 50px;
+    margin-top: 50px;
+    text-indent: 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sub-card .button:hover {
+    background-color: rgb(7, 49, 108);
+}
+

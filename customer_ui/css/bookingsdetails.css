@@ -1,0 +1,32 @@
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 40%; /* Full-width */
+  
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  border-bottom: solid rgb(74, 74, 74); /* Add a grey border */
+  padding: 30px; /* Add padding */
+}
+
+
+.free-room {
+  margin: 50px 10% 0 10%;
+}
+
+.button-print {
+  position: absolute;
+  right: 400px;
+  top: 400px;
+  background-color: rgb(16, 95, 205);
+  padding: 2px 40px 2px 40px;
+  border-radius: 10px;
+  text-decoration : none;
+  color: black;
+}
+
+.button-print:hover {
+  background-color: rgb(6, 43, 94);
+}
