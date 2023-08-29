@@ -6,9 +6,6 @@ After booking he will be able to get a receipt for the bookings and get details 
 
 ## Screenshots
 
-Main Page
-![Screenshot 1](screenshots/Screenshot1.png)
-
 ![Screenshot 1](screenshots/Screenshot4.png)
 ![Screenshot 1](screenshots/Screenshot5.png)
 ![Screenshot 1](screenshots/Screenshot6.png)
