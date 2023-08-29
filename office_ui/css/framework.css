@@ -1,0 +1,34 @@
+* {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(5, 5, 90);
+    height: 100px;
+    width: 100%;
+}
+
+nav p {
+    float: left;
+    margin: 20px;
+    margin-top: 40px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+nav p:hover {
+    color: aquamarine;
+  }
+
+.active p {
+    color: rgb(0, 244, 163);
+}
+
+#logout {
+    float: right;
+}
+
+#hotel_signup p{
+    float: right;
+    margin-right: 50px;
+}

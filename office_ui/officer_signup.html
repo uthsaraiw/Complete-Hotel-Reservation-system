@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>office management</title>
+    <script src="https://kit.fontawesome.com/4a07888b37.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <nav>
+      <a href="index.html">
+        <p>Home</p>
+      </a>
+      <a href="index.html">
+        <p>Bookings</p>
+      </a>
+      <a href="index.html">
+        <p>Records</p>
+      </a>
+      <a href="index.html">
+        <p>Persons</p>
+      </a>
+      <a href="index.html">
+        <p>All Rooms</p>
+      </a>
+      <a href="index.html">
+        <p>Help</p>
+      </a>
+      <a id="hotel_signup" href="hotel_signup.html">
+        <p>+ Hotel</p>
+      </a>
+                
+    </nav>
+    <body>
+        <P>Please login to the office managementment system...</P>
+
+        <div class="form">
+
+        <!--login form-->
+        <form action="http://localhost/co226/project/office_ui/officer_signup.php"  method="post" style="border:1px solid #ccc">
+          <div class="container">
+            <h1></h1>
+            <p>Please fill the form for signing up the office</p>
+            <hr>
+            
+            <label for="name"><b>Your Name</b></label>
+            <input type="text" placeholder="Enter Your name" name="name" required>
+
+            <label for="id"><b>Hotel ID</b></label>
+            <input type="text" placeholder="Enter ID Number Of Hotel" name="id" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <label>
+              <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+            
+            <div class="clearfix">
+              <button type="button" class="cancelbtn" onclick="navigateToAnotherPage()">Login</button>
+              <button type="submit" class="signupbtn">Sign Up</button>
+
+              <script>
+                  function navigateToAnotherPage() {
+                      // Replace "target_page.html" with the URL of the page you want to navigate to
+                      window.location.href = "index.html";
+                  }
+              </script>
+              
+          </div>
+        </form>
+          <!--end of login-->
+
+        </div>
+
+    </body>
+
+</body>
+</html>
